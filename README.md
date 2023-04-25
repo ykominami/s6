@@ -1,3 +1,4 @@
+S4のさらに元のテンプレート
 <div align="center">
   <br>
  <img src="https://raw.githubusercontent.com/sinanbekar/browser-extension-react-typescript-starter/main/public/images/extension_128.png" alt="Browser Extension React & TypeScript Starter" width="128">
