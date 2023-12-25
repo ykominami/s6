@@ -73,7 +73,7 @@
     "postcss": "8.4.31",
     "prettier": "2.7.1",
     "rimraf": "3.0.2",
-    "simple-git-hooks": "2.8.0",
+    "simple-git-hooks": "2.9.0",
     "stylelint": "15.10.1",
     "stylelint-config-prettier": "9.0.3",
     "stylelint-config-standard": "26.0.0",
