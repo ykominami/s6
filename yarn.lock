@@ -2429,10 +2429,10 @@
     "@types/scheduler" "*"
     csstype "^3.0.2"
 
-"@types/redux-persist-webextension-storage@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@types/redux-persist-webextension-storage/-/redux-persist-webextension-storage-1.0.0.tgz#f7e0e504f17a3afd01f005755e6be8884d05b896"
-  integrity sha512-bY8vM4g0BWcUy9mtfIUlVC4ohwmF/EVqV0x6kyJX5Hl0hm59XlE0KbfgY8TgdrOL/v1No4+8oh7uPaDjs1/3rQ==
+"@types/redux-persist-webextension-storage@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@types/redux-persist-webextension-storage/-/redux-persist-webextension-storage-1.0.3.tgz#19abfd67fcc403e58fc457ea1abb2d214025218e"
+  integrity sha512-KCHLmvooJqrq2fHgbO5RuTyvfqby/CbGDupOlkD0T/LaKugixgoKcRJIV3AQ7Ibu6qzWdielihKKaV4gTJppjA==
 
 "@types/scheduler@*":
   version "0.16.2"
@@ -7859,10 +7859,10 @@ table@^6.8.1:
     string-width "^4.2.3"
     strip-ansi "^6.0.1"
 
-tailwindcss@3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.4.1.tgz#f512ca5d1dd4c9503c7d3d28a968f1ad8f5c839d"
-  integrity sha512-qAYmXRfk3ENzuPBakNK0SRrUDipP8NQnEY6772uDhflcQz5EhRdD7JNZxyrFHVQNCwULPBn6FNPp9brpO7ctcA==
+tailwindcss@3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.4.0.tgz#045a9c474e6885ebd0436354e611a76af1c76839"
+  integrity sha512-VigzymniH77knD1dryXbyxR+ePHihHociZbXnLZHUyzf2MMs2ZVqlUrZ3FvpXP8pno9JzmILt1sZPD19M3IxtA==
   dependencies:
     "@alloc/quick-lru" "^5.2.0"
     arg "^5.0.2"
