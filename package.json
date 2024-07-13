@@ -28,7 +28,7 @@
   "dependencies": {
     "@eduardoac-skimlinks/webext-redux": "3.0.1-release-candidate",
     "@reduxjs/toolkit": "1.9.7",
-    "react": "18.2.0",
+    "react": "18.3.1",
     "react-dom": "18.2.0",
     "react-redux": "7.2.8",
     "redux-persist-webextension-storage": "1.0.2",
@@ -48,7 +48,7 @@
     "@types/glob": "7.2.0",
     "@types/jest": "28.1.6",
     "@types/lodash": "4.14.182",
-    "@types/react": "18.2.46",
+    "@types/react": "18.3.3",
     "@types/react-dom": "18.2.24",
     "@types/redux-persist-webextension-storage": "1.0.0",
     "@types/webextension-polyfill": "0.9.0",
