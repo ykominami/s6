@@ -36,7 +36,7 @@
     "webextension-polyfill": "0.12.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.0.3",
+    "@commitlint/cli": "19.3.0",
     "@commitlint/config-conventional": "17.0.3",
     "@crxjs/vite-plugin": "1.0.14",
     "@ryansonshine/commitizen": "4.2.8",
@@ -60,7 +60,7 @@
     "eslint-config-prettier": "9.1.0",
     "eslint-config-react-app": "7.0.1",
     "eslint-plugin-prettier": "4.2.1",
-    "eslint-plugin-react": "7.33.2",
+    "eslint-plugin-react": "7.34.4",
     "eslint-plugin-simple-import-sort": "7.0.0",
     "glob": "10.4.2",
     "identity-obj-proxy": "3.0.0",
