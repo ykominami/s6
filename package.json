@@ -82,7 +82,7 @@
     "ts-jest": "28.0.7",
     "typescript": "5.5.4",
     "vite": "5.4.2",
-    "semver": ">= 6.3.1"
+    "semver": ">= 7.6.3"
   },
   "config": {
     "commitizen": {
