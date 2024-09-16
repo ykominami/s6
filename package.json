@@ -36,7 +36,7 @@
     "webextension-polyfill": "0.12.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "19.4.1",
+    "@commitlint/cli": "19.5.0",
     "@commitlint/config-conventional": "19.2.2",
     "@crxjs/vite-plugin": "1.0.14",
     "@ryansonshine/commitizen": "4.2.8",
