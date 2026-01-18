@@ -37,8 +37,8 @@
   },
   "devDependencies": {
     "@commitlint/cli": "20.1.0",
-    "@commitlint/config-conventional": "20.0.0",
-    "@crxjs/vite-plugin": "2.3.0",
+    "@commitlint/config-conventional": "20.3.1",
+    "@crxjs/vite-plugin": "2.2.1",
     "@ryansonshine/commitizen": "4.2.8",
     "@ryansonshine/cz-conventional-changelog": "3.3.4",
     "@testing-library/jest-dom": "6.6.3",
