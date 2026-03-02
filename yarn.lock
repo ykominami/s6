@@ -1245,13 +1245,13 @@
     hashery "^1.2.0"
     keyv "^5.5.4"
 
-"@commitlint/cli@20.4.2":
-  version "20.4.2"
-  resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-20.4.2.tgz#2cb97a37a11ee3245a22f770101b18a89f5e58c4"
-  integrity sha512-YjYSX2yj/WsVoxh9mNiymfFS2ADbg2EK4+1WAsMuckwKMCqJ5PDG0CJU/8GvmHWcv4VRB2V02KqSiecRksWqZQ==
+"@commitlint/cli@20.4.1":
+  version "20.4.1"
+  resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-20.4.1.tgz#a3d402d877322508925264b02fce48dda1932ffb"
+  integrity sha512-uuFKKpc7OtQM+6SRqT+a4kV818o1pS+uvv/gsRhyX7g4x495jg+Q7P0+O9VNGyLXBYP0syksS7gMRDJKcekr6A==
   dependencies:
     "@commitlint/format" "^20.4.0"
-    "@commitlint/lint" "^20.4.2"
+    "@commitlint/lint" "^20.4.1"
     "@commitlint/load" "^20.4.0"
     "@commitlint/read" "^20.4.0"
     "@commitlint/types" "^20.4.0"
@@ -1307,7 +1307,7 @@
     "@commitlint/types" "^20.4.0"
     semver "^7.6.0"
 
-"@commitlint/lint@^20.4.2":
+"@commitlint/lint@^20.4.1":
   version "20.4.2"
   resolved "https://registry.yarnpkg.com/@commitlint/lint/-/lint-20.4.2.tgz#c22dd66cbe689f3e8b9be468739b4394fcae8ad4"
   integrity sha512-buquzNRtFng6xjXvBU1abY/WPEEjCgUipNQrNmIWe8QuJ6LWLtei/LDBAzEe5ASm45+Q9L2Xi3/GVvlj50GAug==
@@ -7811,10 +7811,10 @@ table@^6.9.0:
     string-width "^4.2.3"
     strip-ansi "^6.0.1"
 
-tailwindcss@4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-4.2.0.tgz#fe0a67ddebe0c383096f68d22c677ae8af428ded"
-  integrity sha512-yYzTZ4++b7fNYxFfpnberEEKu43w44aqDMNM9MHMmcKuCH7lL8jJ4yJ7LGHv7rSwiqM0nkiobF9I6cLlpS2P7Q==
+tailwindcss@4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-4.2.1.tgz#018c4720b58baf98a6bf56b0a12aa797c6cfef1d"
+  integrity sha512-/tBrSQ36vCleJkAOsy9kbNTgaxvGbyOamC30PRePTQe/o1MFwEKHQk4Cn7BNGaPtjp+PuUrByJehM1hgxfq4sw==
 
 terminal-link@^2.0.0:
   version "2.1.1"
