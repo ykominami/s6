@@ -1274,12 +1274,12 @@
     "@commitlint/types" "^20.4.0"
     ajv "^8.11.0"
 
-"@commitlint/ensure@^20.4.1":
-  version "20.4.1"
-  resolved "https://registry.yarnpkg.com/@commitlint/ensure/-/ensure-20.4.1.tgz#7082950ac3db011177a5826c73b0ab147bb57c23"
-  integrity sha512-WLQqaFx1pBooiVvBrA1YfJNFqZF8wS/YGOtr5RzApDbV9tQ52qT5VkTsY65hFTnXhW8PcDfZLaknfJTmPejmlw==
+"@commitlint/ensure@^20.4.4":
+  version "20.4.4"
+  resolved "https://registry.yarnpkg.com/@commitlint/ensure/-/ensure-20.4.4.tgz#3380d442fb6dd76868ff4b7b9b8b1260fb40f72e"
+  integrity sha512-QivV0M1MGL867XCaF+jJkbVXEPKBALhUUXdjae66hes95aY1p3vBJdrcl3x8jDv2pdKWvIYIz+7DFRV/v0dRkA==
   dependencies:
-    "@commitlint/types" "^20.4.0"
+    "@commitlint/types" "^20.4.4"
     lodash.camelcase "^4.3.0"
     lodash.kebabcase "^4.1.1"
     lodash.snakecase "^4.1.1"
@@ -1299,12 +1299,12 @@
     "@commitlint/types" "^20.4.0"
     picocolors "^1.1.1"
 
-"@commitlint/is-ignored@^20.4.1":
-  version "20.4.1"
-  resolved "https://registry.yarnpkg.com/@commitlint/is-ignored/-/is-ignored-20.4.1.tgz#85c34fd56dbf3bcc5440667ea4e520edce9ee782"
-  integrity sha512-In5EO4JR1lNsAv1oOBBO24V9ND1IqdAJDKZiEpdfjDl2HMasAcT7oA+5BKONv1pRoLG380DGPE2W2RIcUwdgLA==
+"@commitlint/is-ignored@^20.4.4":
+  version "20.4.4"
+  resolved "https://registry.yarnpkg.com/@commitlint/is-ignored/-/is-ignored-20.4.4.tgz#81892a43b8e7a89de0d4997b9f4003696dfb2ee7"
+  integrity sha512-y76rT8yq02x+pMDBI2vY4y/ByAwmJTkta/pASbgo8tldBiKLduX8/2NCRTSCjb3SumE5FBeopERKx3oMIm8RTQ==
   dependencies:
-    "@commitlint/types" "^20.4.0"
+    "@commitlint/types" "^20.4.4"
     semver "^7.6.0"
 
 "@commitlint/lint@^20.4.1":
@@ -1312,10 +1312,10 @@
   resolved "https://registry.yarnpkg.com/@commitlint/lint/-/lint-20.4.2.tgz#c22dd66cbe689f3e8b9be468739b4394fcae8ad4"
   integrity sha512-buquzNRtFng6xjXvBU1abY/WPEEjCgUipNQrNmIWe8QuJ6LWLtei/LDBAzEe5ASm45+Q9L2Xi3/GVvlj50GAug==
   dependencies:
-    "@commitlint/is-ignored" "^20.4.1"
-    "@commitlint/parse" "^20.4.1"
-    "@commitlint/rules" "^20.4.2"
-    "@commitlint/types" "^20.4.0"
+    "@commitlint/is-ignored" "^20.4.4"
+    "@commitlint/parse" "^20.4.4"
+    "@commitlint/rules" "^20.4.4"
+    "@commitlint/types" "^20.4.4"
 
 "@commitlint/load@>6.1.1", "@commitlint/load@^20.4.0":
   version "20.4.0"
@@ -1332,19 +1332,19 @@
     lodash.mergewith "^4.6.2"
     picocolors "^1.1.1"
 
-"@commitlint/message@^20.4.0":
-  version "20.4.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/message/-/message-20.4.0.tgz#ff0e1023c28c3e26a58412e5027c15b09b75e9b3"
-  integrity sha512-B5lGtvHgiLAIsK5nLINzVW0bN5hXv+EW35sKhYHE8F7V9Uz1fR4tx3wt7mobA5UNhZKUNgB/+ldVMQE6IHZRyA==
+"@commitlint/message@^20.4.3":
+  version "20.4.3"
+  resolved "https://registry.yarnpkg.com/@commitlint/message/-/message-20.4.3.tgz#0c377fbbe1c72487612330a01d1e7dea991fa467"
+  integrity sha512-6akwCYrzcrFcTYz9GyUaWlhisY4lmQ3KvrnabmhoeAV8nRH4dXJAh4+EUQ3uArtxxKQkvxJS78hNX2EU3USgxQ==
 
-"@commitlint/parse@^20.4.1":
-  version "20.4.1"
-  resolved "https://registry.yarnpkg.com/@commitlint/parse/-/parse-20.4.1.tgz#92bc8098d4ac6e0221288ef9b096f79e1c294a2d"
-  integrity sha512-XNtZjeRcFuAfUnhYrCY02+mpxwY4OmnvD3ETbVPs25xJFFz1nRo/25nHj+5eM+zTeRFvWFwD4GXWU2JEtoK1/w==
+"@commitlint/parse@^20.4.4":
+  version "20.4.4"
+  resolved "https://registry.yarnpkg.com/@commitlint/parse/-/parse-20.4.4.tgz#6356d8e4b6ae857dbc6c88e3a2444f5b0c54b8ea"
+  integrity sha512-AjfgOgrjEozeQNzhFu1KL5N0nDx4JZmswVJKNfOTLTUGp6xODhZHCHqb//QUHKOzx36If5DQ7tci2o7szYxu1A==
   dependencies:
-    "@commitlint/types" "^20.4.0"
-    conventional-changelog-angular "^8.1.0"
-    conventional-commits-parser "^6.2.1"
+    "@commitlint/types" "^20.4.4"
+    conventional-changelog-angular "^8.2.0"
+    conventional-commits-parser "^6.3.0"
 
 "@commitlint/read@^20.4.0":
   version "20.4.0"
@@ -1369,15 +1369,15 @@
     lodash.mergewith "^4.6.2"
     resolve-from "^5.0.0"
 
-"@commitlint/rules@^20.4.2":
-  version "20.4.2"
-  resolved "https://registry.yarnpkg.com/@commitlint/rules/-/rules-20.4.2.tgz#0370422fedc037b0e00259445d9b82377743a8a1"
-  integrity sha512-oz83pnp5Yq6uwwTAabuVQPNlPfeD2Y5ZjMb7Wx8FSUlu4sLYJjbBWt8031Z0osCFPfHzAwSYrjnfDFKtuSMdKg==
+"@commitlint/rules@^20.4.4":
+  version "20.4.4"
+  resolved "https://registry.yarnpkg.com/@commitlint/rules/-/rules-20.4.4.tgz#2f3f12f411972479d6860daceb622fdd80b7c079"
+  integrity sha512-PmUp8QPLICn9w05dAx5r1rdOYoTk7SkfusJJh5tP3TqHwo2mlQ9jsOm8F0HSXU9kuLfgTEGNrunAx/dlK/RyPQ==
   dependencies:
-    "@commitlint/ensure" "^20.4.1"
-    "@commitlint/message" "^20.4.0"
+    "@commitlint/ensure" "^20.4.4"
+    "@commitlint/message" "^20.4.3"
     "@commitlint/to-lines" "^20.0.0"
-    "@commitlint/types" "^20.4.0"
+    "@commitlint/types" "^20.4.4"
 
 "@commitlint/to-lines@^20.0.0":
   version "20.0.0"
@@ -1397,6 +1397,14 @@
   integrity sha512-aO5l99BQJ0X34ft8b0h7QFkQlqxC6e7ZPVmBKz13xM9O8obDaM1Cld4sQlJDXXU/VFuUzQ30mVtHjVz74TuStw==
   dependencies:
     conventional-commits-parser "^6.2.1"
+    picocolors "^1.1.1"
+
+"@commitlint/types@^20.4.4":
+  version "20.4.4"
+  resolved "https://registry.yarnpkg.com/@commitlint/types/-/types-20.4.4.tgz#c7a2fce9b1aa0feaa3b22fccad008cb588a94b3e"
+  integrity sha512-dwTGzyAblFXHJNBOgrTuO5Ee48ioXpS5XPRLLatxhQu149DFAHUcB3f0Q5eea3RM4USSsP1+WVT2dBtLVod4fg==
+  dependencies:
+    conventional-commits-parser "^6.3.0"
     picocolors "^1.1.1"
 
 "@crxjs/vite-plugin@2.3.0":
@@ -2218,6 +2226,11 @@
     word-wrap "^1.0.3"
   optionalDependencies:
     "@commitlint/load" ">6.1.1"
+
+"@simple-libs/stream-utils@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@simple-libs/stream-utils/-/stream-utils-1.2.0.tgz#5af724b826f1ab4d7f2826d31d3efccec124102b"
+  integrity sha512-KxXvfapcixpz6rVEB6HPjOUZT22yN6v0vI0urQSk1L8MlEWPDFCZkhw2xmkyoTGYeFw7tWTZd7e3lVzRZRN/EA==
 
 "@sinclair/typebox@^0.24.1":
   version "0.24.51"
@@ -3377,10 +3390,10 @@ confusing-browser-globals@^1.0.11:
   resolved "https://registry.yarnpkg.com/confusing-browser-globals/-/confusing-browser-globals-1.0.11.tgz#ae40e9b57cdd3915408a2805ebd3a5585608dc81"
   integrity sha512-JsPKdmh8ZkmnHxDk55FZ1TqVLvEQTvoByJZRN9jzI0UjxK/QgAmsphz7PGtqgPieQZ/CQcHWXCR7ATDNhGe+YA==
 
-conventional-changelog-angular@^8.1.0:
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/conventional-changelog-angular/-/conventional-changelog-angular-8.1.0.tgz#06223a40f818c5618982fdb92d2b2aac5e24d33e"
-  integrity sha512-GGf2Nipn1RUCAktxuVauVr1e3r8QrLP/B0lEUsFktmGqc3ddbQkhoJZHJctVU829U1c6mTSWftrVOCHaL85Q3w==
+conventional-changelog-angular@^8.2.0:
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/conventional-changelog-angular/-/conventional-changelog-angular-8.3.0.tgz#e344def5f3d3c4f3242dea3c4e12c402e0d6832c"
+  integrity sha512-DOuBwYSqWzfwuRByY9O4oOIvDlkUCTDzfbOgcSbkY+imXXj+4tmrEFao3K+FxemClYfYnZzsvudbwrhje9VHDA==
   dependencies:
     compare-func "^2.0.0"
 
@@ -3401,6 +3414,14 @@ conventional-commits-parser@^6.2.1:
   resolved "https://registry.yarnpkg.com/conventional-commits-parser/-/conventional-commits-parser-6.2.1.tgz#855e53c4792b1feaf93649eff5d75e0dbc2c63ad"
   integrity sha512-20pyHgnO40rvfI0NGF/xiEoFMkXDtkF8FwHvk5BokoFoCuTQRI8vrNCNFWUOfuolKJMm1tPCHc8GgYEtr1XRNA==
   dependencies:
+    meow "^13.0.0"
+
+conventional-commits-parser@^6.3.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/conventional-commits-parser/-/conventional-commits-parser-6.3.0.tgz#fc170753ca66f31940a438539bf48e4406ac54b5"
+  integrity sha512-RfOq/Cqy9xV9bOA8N+ZH6DlrDR+5S3Mi0B5kACEjESpE+AviIpAptx9a9cFpWCCvgRtWT+0BbUw+e1BZfts9jg==
+  dependencies:
+    "@simple-libs/stream-utils" "^1.2.0"
     meow "^13.0.0"
 
 convert-source-map@^1.4.0, convert-source-map@^1.7.0:
@@ -8084,9 +8105,9 @@ undici-types@~6.19.8:
   integrity sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==
 
 undici@^6.19.5:
-  version "6.23.0"
-  resolved "https://registry.yarnpkg.com/undici/-/undici-6.23.0.tgz#7953087744d9095a96f115de3140ca3828aff3a4"
-  integrity sha512-VfQPToRA5FZs/qJxLIinmU59u0r7LXqoJkCzinq3ckNJp3vKEh7jTWN589YQ5+aoAC/TGRLyJLCPKcLQbM8r9g==
+  version "6.24.0"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-6.24.0.tgz#ad36b879b4882d14addc13dd641da7ed7ac7623a"
+  integrity sha512-lVLNosgqo5EkGqh5XUDhGfsMSoO8K0BAN0TyJLvwNRSl4xWGZlCVYsAIpa/OpA3TvmnM01GWcoKmc3ZWo5wKKA==
 
 unicode-canonical-property-names-ecmascript@^2.0.0:
   version "2.0.1"
