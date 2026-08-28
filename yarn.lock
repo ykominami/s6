@@ -6341,7 +6341,7 @@ nano-staged@1.0.2:
   resolved "https://registry.yarnpkg.com/nano-staged/-/nano-staged-1.0.2.tgz#66e5662fe67e0a1d1bfda091579e4d89e27143b0"
   integrity sha512-Fytar3zHLY99nlMfqPPbraxZodqQAHPpdPRyYaplL+lB9DCR6pUrafxbG+Btz4+7fO5Rm/+DO4ZeDO/nLSUMhw==
 
-nanoid@^3.3.16, nanoid@^3.3.17:
+nanoid@^3.3.17:
   version "3.3.18"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.18.tgz#f66a2de1199ffde0fcf21c8a5f13106b1c081913"
   integrity sha512-DTg4MJbGMWkfi6VZFdNt2/caMbQy4Ou+Op/hJQvGEWcnVfoA1QA+xzRKAzw9jD6+GVOOeYr/mIcuDSdug6F6+w==
