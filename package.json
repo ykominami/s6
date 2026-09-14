@@ -43,7 +43,7 @@
     "@ryansonshine/cz-conventional-changelog": "3.3.4",
     "@testing-library/jest-dom": "6.9.1",
     "@testing-library/react": "15.0.7",
-    "@testing-library/user-event": "14.6.1",
+    "@testing-library/user-event": "14.6.7",
     "@types/fs-extra": "11.0.4",
     "@types/glob": "9.0.0",
     "@types/jest": "28.1.6",
