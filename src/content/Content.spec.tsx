@@ -11,7 +11,7 @@ describe('content', () => {
     render(
       <Provider store={store}>
         <Content />
-      </Provider>
+      </Provider>,
     );
     expect(screen.getByText('Content Example')).toBeInTheDocument();
   });
