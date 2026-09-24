@@ -1,4 +1,3 @@
-import { exec, execSync } from 'child_process';
 import * as fs from 'fs';
 import * as glob from 'glob';
 import { get as getKeyValue, set as setKeyValue } from 'lodash';
@@ -16,7 +15,7 @@ function removeSrcFromHtmlPaths(): PluginOption {
       config = resolvedConfig;
     },
 
-    closeBundle() {
+    writeBundle() {
       const outDir = resolve(config.build.outDir);
       const manifestPath = resolve(outDir, 'manifest.json');
       const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf-8')); // TODO: typing
@@ -57,14 +56,13 @@ function removeSrcFromHtmlPaths(): PluginOption {
       }
 
       if (glob.sync(`${config.build.outDir}/src/**/*.html`).length > 0) {
-        exec(`rimraf ${config.build.outDir}`);
         throw new Error(
           'Something went wrong. Files found in src folder, please open an issue in GitHub.'
         );
-      } else {
-        fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2));
-        execSync(`rimraf ${config.build.outDir}/src`);
       }
+
+      fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2));
+      fs.rmSync(resolve(outDir, 'src'), { recursive: true, force: true });
     },
   };
 }
