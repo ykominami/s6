@@ -1,10 +1,15 @@
 import React from 'react';
+import { MantineProvider } from '@mantine/core';
 import { render, screen } from '@testing-library/react';
 
 import Popup from './Popup';
 
 it('should load and display Popup', async () => {
-  render(<Popup />);
+  render(
+    <MantineProvider>
+      <Popup />
+    </MantineProvider>,
+  );
 
   expect(
     screen.getByText((content, element) => {
