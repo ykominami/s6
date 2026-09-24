@@ -57,7 +57,7 @@ function removeSrcFromHtmlPaths(): PluginOption {
 
       if (glob.sync(`${config.build.outDir}/src/**/*.html`).length > 0) {
         throw new Error(
-          'Something went wrong. Files found in src folder, please open an issue in GitHub.'
+          'Something went wrong. Files found in src folder, please open an issue in GitHub.',
         );
       }
 
