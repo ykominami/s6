@@ -1,11 +1,12 @@
 import React, { ReactElement } from 'react';
-import { Container, Select } from '@mantine/core';
+import { Container, Select, Title } from '@mantine/core';
 
 const Popup = (): ReactElement => {
   document.body.style.width = '20rem';
   document.body.style.height = '20rem';
   return (
     <Container p="xl">
+      <Title order={1}>Popup</Title>
       <Select
         label="どの言語に翻訳しますか？"
         defaultValue="EN"
