@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "run-s clean && vite",
     "build": "run-s clean && tsc && vite build && run-s firefox-build",
-    "firefox-build": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' ts-node utils/scripts/mv3ToMv2Build.ts",
+    "firefox-build": "node --experimental-strip-types utils/scripts/mv3ToMv2Build.ts",
     "clean": "run-p clean:*",
     "clean:dist": "rimraf dist",
     "clean:dist_firefox": "rimraf dist_firefox",
@@ -28,6 +28,7 @@
   "dependencies": {
     "@eduardoac-skimlinks/webext-redux": "3.0.1-release-candidate",
     "@mantine/core": "9.6.2",
+    "@mantine/hooks": "9.6.2",
     "@reduxjs/toolkit": "1.9.7",
     "react": "18.3.1",
     "react-dom": "18.3.1",
@@ -42,6 +43,7 @@
     "@crxjs/vite-plugin": "2.4.0",
     "@ryansonshine/commitizen": "4.2.8",
     "@ryansonshine/cz-conventional-changelog": "3.3.4",
+    "@tailwindcss/postcss": "4.2.2",
     "@testing-library/jest-dom": "6.9.1",
     "@testing-library/react": "15.0.7",
     "@testing-library/user-event": "14.6.1",
@@ -82,7 +84,7 @@
     "tailwindcss": "4.2.2",
     "ts-jest": "28.0.7",
     "typescript": "7.0.2",
-    "vite": "8.0.16"
+    "vite": "8.3.0"
   },
   "config": {
     "commitizen": {
