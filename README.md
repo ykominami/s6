@@ -1,4 +1,5 @@
 ReactではじめるChrome拡張開発入門のさらに元のテンプレート
+
 <div align="center">
   <br>
  <img src="https://raw.githubusercontent.com/sinanbekar/browser-extension-react-typescript-starter/main/public/images/extension_128.png" alt="Browser Extension React & TypeScript Starter" width="128">
@@ -108,14 +109,12 @@ Then run the following:
 - `yarn build` to build an unpacked extension.
 
 - **Load extension in Chrome (Chromium)**
-
   - Go to the browser address bar and type `chrome://extensions`
   - Check the `Developer Mode` button to enable it.
   - Click on the `Load Unpacked Extension` button.
   - Select your `dist` folder in the project root.
 
 - **Load extension in Firefox**
-
   - Go to the browser address bar and type `about://debugger`
   - Click on the `Load Temporary Add-on` button.
   - Select your `dist_firefox` folder in the project root.
